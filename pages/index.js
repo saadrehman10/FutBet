@@ -1,3 +1,4 @@
+import Bulb from '@/components/bulbs/Bulb';
 import Button from '../components/button/Button';
 
 
@@ -5,8 +6,8 @@ export default function Home() {
   
   return (
     <>
-      <Button ButtonText="litup" />
-      
+      <Bulb />
+      <Button ButtonText="litup"/>
     </>
   )
 }
