@@ -6,7 +6,7 @@ export default function Bulb() {
     return(
         <>
            <Image 
-                src={onBulb} 
+                src={offBulb}
                 alt="bulb" 
                 className={styles.bulbnew}
                 />

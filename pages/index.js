@@ -1,13 +1,17 @@
 import Bulb from '@/components/bulbs/Bulb';
 import Button from '../components/button/Button';
+import styles from '../styles/Home.module.css';
+import { useState } from 'react';
 
 
 export default function Home() {
   
   return (
     <>
-      <Bulb />
-      <Button ButtonText="litup"/>
+      <div className={styles.containerBulb}>
+        <Bulb />
+        <Button ButtonText="litup"/>
+      </div>
     </>
   )
 }
